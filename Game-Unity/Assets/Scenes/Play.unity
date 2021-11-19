@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayCountdown: {fileID: 1493453659}
-  count: 120
+  count: 5
 --- !u!114 &1493453659
 MonoBehaviour:
   m_ObjectHideFlags: 0

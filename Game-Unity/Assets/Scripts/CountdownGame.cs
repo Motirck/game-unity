@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CountdownGame : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class CountdownGame : MonoBehaviour
         else
         {
             displayCountdown.text = "Time's up";
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
