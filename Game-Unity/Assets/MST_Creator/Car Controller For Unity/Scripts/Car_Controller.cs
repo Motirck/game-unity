@@ -7,6 +7,7 @@ using TMPro;
 
 public class Car_Controller : MonoBehaviour
 {
+    #region MST_Creator (https://tssabcreator.wixsite.com/mst-creator) tssab.creator @gmail.com
     //Public Variables
     [Header("Wheel Colliders")]
     public WheelCollider FL;
@@ -48,19 +49,6 @@ public class Car_Controller : MonoBehaviour
     public float Boost_Motor_Torque = 300f;
     public float Motor_Torque_Normal = 100f;
 
-    [Header("Audio Settings (Beta)")]
-    public bool Enable_Audio;
-    public AudioSource Engine_Sound;
-    public float Max_Engine_Audio_Pitch;
-    public float Min_Engine_Audio_Pitch;
-    public float Min_Volume;
-    public float Max_Volume;
-
-    [Header("Drift Settings")]
-    public bool Set_Drift_Settings_Automatically = true;
-    public float Forward_Extremium_Value_When_Drifting;
-    public float Sideways_Extremium_Value_When_Drifting;
-
     [Header("Light Setting(s)")]
 
     [Header("Lights (With Light Settings)")]
@@ -82,10 +70,6 @@ public class Car_Controller : MonoBehaviour
     public MeshRenderer[] HeadLights_MeshRenderers;
     public MeshRenderer[] BrakeLights_MeshRenderers;
     public MeshRenderer[] ReverseLights_MeshRenderers;
-
-    [Header("Particle System(s) Settings")]
-    public bool Use_Particle_Systems;
-    public ParticleSystem[] Car_Smoke_From_Silencer;//Sorry, couldn't think of a better name :P
 
     [Header("UI Settings")]
     public bool Use_TMP;
@@ -148,13 +132,6 @@ public class Car_Controller : MonoBehaviour
         //To Prevent The Car From Toppling When Turning Too Much
         rb = GetComponent<Rigidbody>();
         rb.centerOfMass = Center_of_Mass.localPosition;
-
-        //Play Car Particle System
-        if(Use_Particle_Systems){
-            foreach(ParticleSystem P in Car_Smoke_From_Silencer){
-                P.Play();
-            }
-        }
 
         //Set the current gear to 0
         Current_Gear = "0";
@@ -280,86 +257,9 @@ public class Car_Controller : MonoBehaviour
             Motor_Torque = Motor_Torque_Normal;
         }
 
-        //Make Car Drift
-        WheelHit wheelHit1;
-        WheelHit wheelHit2;
-        WheelHit wheelHit3;
-        WheelHit wheelHit4;
+        if (tempo < 0.5) tempo = 0.5f;
 
-        FL.GetGroundHit(out wheelHit1);
-        FR.GetGroundHit(out wheelHit2);
-        BL.GetGroundHit(out wheelHit3);
-        BR.GetGroundHit(out wheelHit4);
-
-        if(wheelHit1.sidewaysSlip < 0 )	
-            tempo = (1 + -Input.GetAxis("Horizontal")) * Mathf.Abs(wheelHit1.sidewaysSlip *handBrakeFrictionMultiplier);
-
-            if(tempo < 0.5) tempo = 0.5f;
-
-        if(wheelHit1.sidewaysSlip > 0 )	
-            tempo = (1 + Input.GetAxis("Horizontal") )* Mathf.Abs(wheelHit1.sidewaysSlip *handBrakeFrictionMultiplier);
-
-            if(tempo < 0.5) tempo = 0.5f;
-
-        if(wheelHit1.sidewaysSlip > .99f || wheelHit1.sidewaysSlip < -.99f){
-            //handBrakeFriction = tempo * 3;
-            float velocity = 0;
-            handBrakeFriction = Mathf.SmoothDamp(handBrakeFriction,tempo* 3,ref velocity ,0.1f * Time.deltaTime);
-            }
-
-        if(wheelHit2.sidewaysSlip < 0 )	
-            tempo = (1 + -Input.GetAxis("Horizontal")) * Mathf.Abs(wheelHit2.sidewaysSlip *handBrakeFrictionMultiplier);
-
-            if(tempo < 0.5) tempo = 0.5f;
-        
-        if(wheelHit2.sidewaysSlip > 0 )	
-            tempo = (1 + Input.GetAxis("Horizontal") )* Mathf.Abs(wheelHit2.sidewaysSlip *handBrakeFrictionMultiplier);
-        
-            if(tempo < 0.5) tempo = 0.5f;
-        
-        if(wheelHit2.sidewaysSlip > .99f || wheelHit2.sidewaysSlip < -.99f){
-            //handBrakeFriction = tempo * 3;
-            float velocity = 0;
-            handBrakeFriction = Mathf.SmoothDamp(handBrakeFriction,tempo* 3,ref velocity ,0.1f * Time.deltaTime);
-            }
-
-        if(wheelHit3.sidewaysSlip < 0 )	
-            tempo = (1 + -Input.GetAxis("Horizontal")) * Mathf.Abs(wheelHit3.sidewaysSlip *handBrakeFrictionMultiplier) ;
-        
-            if(tempo < 0.5) tempo = 0.5f;
-        
-        if(wheelHit3.sidewaysSlip > 0 )	
-            tempo = (1 + Input.GetAxis("Horizontal") )* Mathf.Abs(wheelHit3.sidewaysSlip *handBrakeFrictionMultiplier);
-        
-            if(tempo < 0.5) tempo = 0.5f;
-        
-        if(wheelHit3.sidewaysSlip > .99f || wheelHit3.sidewaysSlip < -.99f){
-            //handBrakeFriction = tempo * 3;
-            float velocity = 0;
-            handBrakeFriction = Mathf.SmoothDamp(handBrakeFriction,tempo* 3,ref velocity ,0.1f * Time.deltaTime);
-            }
-
-        if(wheelHit4.sidewaysSlip < 0 )	
-            tempo = (1 + -Input.GetAxis("Horizontal")) * Mathf.Abs(wheelHit4.sidewaysSlip *handBrakeFrictionMultiplier) ;
-        
-            if(tempo < 0.5) tempo = 0.5f;
-        
-        if(wheelHit4.sidewaysSlip > 0 )	
-            tempo = (1 + Input.GetAxis("Horizontal") )* Mathf.Abs(wheelHit4.sidewaysSlip *handBrakeFrictionMultiplier);
-        
-            if(tempo < 0.5) tempo = 0.5f;
-        
-        if(wheelHit4.sidewaysSlip > .99f || wheelHit4.sidewaysSlip < -.99f){
-            //handBrakeFriction = tempo * 3;
-            float velocity = 0;
-            handBrakeFriction = Mathf.SmoothDamp(handBrakeFriction,tempo* 3,ref velocity ,0.1f * Time.deltaTime);
-            }
-
-        else{
-            handBrakeFriction = tempo;
-        }
-
-        if(Input.GetKey(KeyCode.S)){
+        if (Input.GetKey(KeyCode.S)){
             //Change gear to "R"
             Current_Gear = "R";
             
@@ -433,61 +333,6 @@ public class Car_Controller : MonoBehaviour
                     BM.enabled = true;
                 }
             }
-
-            //Drifting and changing wheel collider values
-            if(Set_Drift_Settings_Automatically){
-                FLforwardFriction = FL.forwardFriction;
-                FLsidewaysFriction = FL.sidewaysFriction;
-
-                FLforwardFriction.extremumValue = FLforwardFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-                FLsidewaysFriction.extremumValue = FLsidewaysFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-
-                FRforwardFriction = FR.forwardFriction;
-                FRsidewaysFriction = FR.sidewaysFriction;
-
-                FRforwardFriction.extremumValue = FRforwardFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-                FRsidewaysFriction.extremumValue = FRsidewaysFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-
-                BLforwardFriction = BL.forwardFriction;
-                BLsidewaysFriction = BL.sidewaysFriction;
-
-                BLforwardFriction.extremumValue = BLforwardFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-                BLsidewaysFriction.extremumValue = BLsidewaysFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-
-                BRforwardFriction = BR.forwardFriction;
-                BRsidewaysFriction = BR.sidewaysFriction;
-
-                BRforwardFriction.extremumValue = BRforwardFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-                BRsidewaysFriction.extremumValue = BRsidewaysFriction.asymptoteValue = ((currSpeed * frictionMultiplier) / 300) + 1;
-            }
-
-            if(!Set_Drift_Settings_Automatically){
-                //Variables
-                FLforwardFriction = FL.forwardFriction;
-                FLsidewaysFriction = FL.sidewaysFriction;
-
-                FRforwardFriction = FR.forwardFriction;
-                FRsidewaysFriction = FR.sidewaysFriction;
-
-                BLforwardFriction = BL.forwardFriction;
-                BLsidewaysFriction = BL.sidewaysFriction;
-
-                BRforwardFriction = BR.forwardFriction;
-                BRsidewaysFriction = BR.sidewaysFriction;
-
-                //Setting The Extremium values to the ones that the user defined
-                FLforwardFriction.extremumValue = Forward_Extremium_Value_When_Drifting;
-                FLsidewaysFriction.extremumValue = Sideways_Extremium_Value_When_Drifting;
-
-                FRforwardFriction.extremumValue = Forward_Extremium_Value_When_Drifting;
-                FRsidewaysFriction.extremumValue = Sideways_Extremium_Value_When_Drifting;
-
-                BLforwardFriction.extremumValue = Forward_Extremium_Value_When_Drifting;
-                BLsidewaysFriction.extremumValue = Sideways_Extremium_Value_When_Drifting;
-
-                BRforwardFriction.extremumValue = Forward_Extremium_Value_When_Drifting;
-                BRsidewaysFriction.extremumValue = Sideways_Extremium_Value_When_Drifting;
-            }
         }
 
         else{
@@ -513,124 +358,6 @@ public class Car_Controller : MonoBehaviour
                 }
             }
         }
-
-
-        if(Enable_Audio == true){
-                //Play Car Audio
-            if(Input.GetKey(KeyCode.W)){
-                //Play Engine Sound
-                Engine_Sound.Play();
-
-                //Adjust Engine Sound Volume To Car Motor Torque
-                Forward_volume = -1f * (Motor_Torque/BR.motorTorque);
-
-                //Adjust Engine Speed
-                Forward_pitch = -1f * (BR.motorTorque/Motor_Torque);
-
-                if(Forward_volume > Max_Volume){
-                    Forward_volume = Max_Volume;
-
-                    if(Forward_pitch > Max_Engine_Audio_Pitch){
-                        Forward_pitch = Max_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    if(Forward_pitch < Min_Engine_Audio_Pitch){
-                        Forward_pitch = Min_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    else{
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-                }
-
-                if(Forward_volume < Min_Volume){
-                    Forward_volume = Min_Volume;
-
-                    if(Forward_pitch > Max_Engine_Audio_Pitch){
-                        Forward_pitch = Max_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    if(Forward_pitch < Min_Engine_Audio_Pitch){
-                        Forward_pitch = Min_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    else{
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-                }
-            }
-
-            if(Input.GetKey(KeyCode.S)){
-                //Play Engine Sound
-                Engine_Sound.Play();
-
-                //Adjust Engine Sound Volume To Car Motor Torque
-                Reverse_volume = Motor_Torque/BR.motorTorque;
-
-                //Adjust Audio To Engine Speed
-                Reverse_pitch = -1f * (BR.motorTorque/Motor_Torque);
-
-                if(Forward_volume > Max_Volume){
-                    Forward_volume = Max_Volume;
-
-                    if(Forward_pitch > Max_Engine_Audio_Pitch){
-                        Forward_pitch = Max_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    if(Forward_pitch < Min_Engine_Audio_Pitch){
-                        Forward_pitch = Min_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    else{
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-                }
-
-                if(Forward_volume < Min_Volume){
-                    Forward_volume = Min_Volume;
-
-                    if(Forward_pitch > Max_Engine_Audio_Pitch){
-                        Forward_pitch = Max_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    if(Forward_pitch < Min_Engine_Audio_Pitch){
-                        Forward_pitch = Min_Engine_Audio_Pitch;
-
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-
-                    else{
-                        Engine_Sound.volume = Forward_volume;
-                        Engine_Sound.pitch = Forward_pitch;
-                    }
-                }
-            }
-        }
-        
     }
+    #endregion
 }

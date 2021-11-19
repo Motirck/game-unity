@@ -517,7 +517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 330, y: 131}
+  m_AnchoredPosition: {x: 798, y: 469}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447155780
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayCountdown: {fileID: 1493453659}
-  count: 5
+  count: 120
 --- !u!114 &1493453659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2097,7 +2097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 205.2, y: 131}
+  m_AnchoredPosition: {x: 657, y: 469}
   m_SizeDelta: {x: 49.61853, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023087209
@@ -2153,7 +2153,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2307,6 +2307,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6109914151999105328, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109914151999105328, guid: 699a0248b4036f64c88fd59f77bc7239,
+        type: 3}
       propertyPath: car_Controller
       value: 
       objectReference: {fileID: 1529005972}
@@ -2317,13 +2322,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
+      propertyPath: BrakeForce
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
+        type: 3}
       propertyPath: Gear_TMPro
       value: 
       objectReference: {fileID: 2023087209}
     - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
       propertyPath: Motor_Torque
-      value: 900
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
@@ -2333,7 +2343,7 @@ PrefabInstance:
     - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
       propertyPath: Max_Steer_Angle
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
@@ -2345,6 +2355,16 @@ PrefabInstance:
       propertyPath: Speed_Text_TMPPro
       value: 
       objectReference: {fileID: 447155780}
+    - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
+        type: 3}
+      propertyPath: Boost_Motor_Torque
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
+        type: 3}
+      propertyPath: Motor_Torque_Normal
+      value: 1500
+      objectReference: {fileID: 0}
     - target: {fileID: 6109914151999105334, guid: 699a0248b4036f64c88fd59f77bc7239,
         type: 3}
       propertyPath: Gears_Speed.Array.size

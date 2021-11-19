@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1278
     height: 973
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1278
     height: 923
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 471}
+  m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 3821
+  controlID: 18369
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 977
     height: 923
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 403, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 3822
+  controlID: 18370
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 3823
+  controlID: 18371
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,10 +397,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d8400000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2cdcffff3eddffffb2ddffff4edeffff36e0fffffce3ffff9ce4ffff92e9ffff96f3ffff08f4fffff2f4ffff0ef5ffff42f6ffffa0f6ffffb8f6ffffcef6ffff10f7ffff26f7ffff56f7ffff52fbfffff04200001a4300009443000026440000d4440000fa440000ea4b0000144c0000324c00009a4c0000ec4c0000164d0000684d0000704d0000924d0000
+      scrollPos: {x: 0, y: 75}
+      m_SelectedIDs: 94450000
+      m_LastClickedID: 17812
+      m_ExpandedIDs: 5ef4ffff82f4ffffaef4ffffbaf4ffff52f6ffff4efbffff4e45000074450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1584.0198, y: 884.56683, z: -999.10706}
+    m_Target: {x: 2178.1814, y: 1331.2848, z: -558.0205}
     speed: 2
-    m_Value: {x: 1552.2386, y: 873.60144, z: -992.21185}
+    m_Value: {x: 2178.1814, y: 1331.2848, z: -558.0205}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -514,9 +514,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1601.2163
+    m_Target: 1511.868
     speed: 2
-    m_Value: 1532.2644
+    m_Value: 1511.868
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -580,22 +580,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/MST_Creator/Car Controller For Unity/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/MST_Creator/Car Controller For Unity/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca400000
-    m_LastClickedID: 16586
-    m_ExpandedIDs: 00000000aa400000ac400000ae400000b0400000b2400000b4400000b6400000b840000000ca9a3b
+    m_SelectedIDs: e4a60000
+    m_LastClickedID: 42724
+    m_ExpandedIDs: 00000000423d0000443d0000463d0000483d00004a3d00004c3d00004e3d0000503d00005c3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,7 +623,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa400000ac400000ae400000b0400000b2400000b4400000b6400000b840000000ca9a3b
+    m_ExpandedIDs: 00000000423d0000443d0000463d0000483d00004a3d00004c3d00004e3d0000503d00005c3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
