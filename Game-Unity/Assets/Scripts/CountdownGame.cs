@@ -16,7 +16,6 @@ public class CountdownGame : MonoBehaviour
 
     void Update()
     {
-        print("count " + count);
         if (count > 0.0f)
         {
             count -= Time.deltaTime;
