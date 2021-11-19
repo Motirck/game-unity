@@ -592,8 +592,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Vence o jogo quem fizer o percurso da pista em menor tempo poss\xEDvel
-    e antes que o cron\xF4metro chegue a zero. "
+  m_Text: "Vence o jogo quem completar o percurso antes do cron\xF4metro chegar a
+    zero."
 --- !u!222 &615227385
 CanvasRenderer:
   m_ObjectHideFlags: 0
