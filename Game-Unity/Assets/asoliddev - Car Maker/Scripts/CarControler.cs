@@ -42,30 +42,6 @@ public class CarControler : MonoBehaviour
         rbody.centerOfMass = carSettings.centerOfMass;
     }
 
-
-   /// <summary>
-   /// Visual Transformation of the car wheels.
-   /// </summary>
-   /// <param name="wheelCollider"></param>
-   /// <param name="wheelMesh"></param>
-    public void ApplyWheelVisuals(WheelCollider wheelCollider, GameObject wheelMesh)
-    {
-        Vector3 position;
-        Quaternion rotation;
-
-        ///get position and rotation of the WheelCollider
-        wheelCollider.GetWorldPose(out position, out rotation);
-        
-        ///calculate real rotation of the wheels
-        Quaternion realRotation = rotation * Quaternion.Inverse(wheelCollider.transform.parent.rotation) * this.transform.rotation;
-       
-        ///set position of the wheel
-        wheelMesh.transform.position = position;
-        
-        ///set rotation of the wheel
-        wheelMesh.transform.rotation = realRotation;
-    }
-
     public void FixedUpdate()
     {
         ///get speed of the car
@@ -103,11 +79,6 @@ public class CarControler : MonoBehaviour
             ///apply motor break
             wheelAxle.wheelColliderLeft.brakeTorque = handBrake;
             wheelAxle.wheelColliderRight.brakeTorque = handBrake;
-
-
-            ///apply wheel visuals
-            ApplyWheelVisuals(wheelAxle.wheelColliderLeft, wheelAxle.wheelMeshLeft);
-            ApplyWheelVisuals(wheelAxle.wheelColliderRight, wheelAxle.wheelMeshRight);
         }
     }
 }

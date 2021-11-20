@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
 public class CountdownGame : MonoBehaviour
 {
+    public static CountdownGame countdownGame;
     public Text displayCountdown;
 
     public float count = 120.0f;
@@ -20,5 +20,10 @@ public class CountdownGame : MonoBehaviour
             displayCountdown.text = "Time's up";
             SceneManager.LoadScene("GameOver");
         }
+    }
+
+    public void teste()
+    {
+        print("entrou aqui");
     }
 }
