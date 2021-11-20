@@ -15,11 +15,11 @@ C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57328
+64679
 Successfully changed project path to: C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
 C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001416 seconds.
+Registered in 0.001854 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
+- Completed reload, in  1.355 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1187ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (500ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003316 seconds.
+Registered in 0.004246 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  1.386 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1194ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (943ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (365ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (266ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (271ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.0 MB.
-System memory in use after: 81.1 MB.
+System memory in use before: 81.1 MB.
+System memory in use after: 81.2 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 3.514900 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.050000 ms MarkObjects: 3.188800 ms  DeleteObjects: 0.105100 ms)
+Total: 3.025400 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.669400 ms  DeleteObjects: 0.099500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,344 +131,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/asoliddev - Car Maker/New Car.prefab
-  artifactKey: Guid(bd270f5442d387d47b22cd361fa7b887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/New Car.prefab using Guid(bd270f5442d387d47b22cd361fa7b887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f22455c8f4a69606a602c0b27b8e766') in 0.175361 seconds 
-  Import took 0.178914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.800042 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/box.prefab
-  artifactKey: Guid(be554c2ce9fa7e848b86597806043406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/box.prefab using Guid(be554c2ce9fa7e848b86597806043406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc1429244f77fefefe0c13a44a3fb13') in 0.030697 seconds 
-  Import took 0.035238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/car.prefab
-  artifactKey: Guid(cfa48b35f0a0585408b93a7a3043343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/car.prefab using Guid(cfa48b35f0a0585408b93a7a3043343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4777084ce6b5d93e54f4c4a7c841dc72') in 0.067799 seconds 
-  Import took 0.073619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/Terrain.prefab
-  artifactKey: Guid(9669be9d20d3cff499cfaa163f05cf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/Terrain.prefab using Guid(9669be9d20d3cff499cfaa163f05cf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715637c3551adde30662bb05743ed30e') in 0.059078 seconds 
-  Import took 0.063283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30490c11d31a9e6970f688dcfc24836') in 0.052333 seconds 
-  Import took 0.056363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/cone.prefab
-  artifactKey: Guid(a18dac63d9e6cbd4eaad9e9faab3ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/cone.prefab using Guid(a18dac63d9e6cbd4eaad9e9faab3ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8a2f5f3946c47f3492cca4009f1406') in 0.052088 seconds 
-  Import took 0.058074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.500281 seconds.
-  path: Assets/asoliddev - Car Maker/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babd73f3a0ea7c52465a657c483ab826') in 0.009712 seconds 
-  Import took 0.013473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.858099 seconds.
-  path: Assets/Scenes/Play.unity
-  artifactKey: Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Play.unity using Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4371cc748a54a0c28b4f60797f8437') in 0.019559 seconds 
-  Import took 0.023363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 316.198507 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html
-  artifactKey: Guid(033cc5f9a61f25740bb0bebf230c2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html using Guid(033cc5f9a61f25740bb0bebf230c2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09ebade0eef167b8d870e1bff5e10b9') in 0.018692 seconds 
-  Import took 0.023858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.955326 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/420x280.png
-  artifactKey: Guid(31a0768d82b97ff44ab40beaf4bcc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/420x280.png using Guid(31a0768d82b97ff44ab40beaf4bcc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5189be16769811e03fab1daf9182008') in 0.057989 seconds 
-  Import took 0.062664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/class_car_controler.png
-  artifactKey: Guid(dd1c7c141be399045a86769a4688a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/class_car_controler.png using Guid(dd1c7c141be399045a86769a4688a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee128957a76e7322eceb1f04144bccb') in 0.076611 seconds 
-  Import took 0.082724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/sync_off.png
-  artifactKey: Guid(b49b232efb79fb4488ffc88a8d814698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/sync_off.png using Guid(b49b232efb79fb4488ffc88a8d814698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ab987e18c806920b112d857e69015') in 0.058435 seconds 
-  Import took 0.063556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/bc_s.png
-  artifactKey: Guid(dc680ee8dd94e694b8913d3d733dd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/bc_s.png using Guid(dc680ee8dd94e694b8913d3d733dd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3372803f3c20563cb55fff501c55a80f') in 0.298195 seconds 
-  Import took 0.313466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_a.png
-  artifactKey: Guid(8588af6a112f67e4ea967bcd03cdebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_a.png using Guid(8588af6a112f67e4ea967bcd03cdebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a875cd4f90b8e2893132693c64979d01') in 0.090152 seconds 
-  Import took 0.143264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_b.png
-  artifactKey: Guid(d89d2d6c73f320a4887afad4e267e353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_b.png using Guid(d89d2d6c73f320a4887afad4e267e353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0d69e50104cca80aa66b893864ded7') in 0.060227 seconds 
-  Import took 0.144546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012768 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/class_car_camera.png
-  artifactKey: Guid(376397e90f16ea8459c15c967f7814cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/class_car_camera.png using Guid(376397e90f16ea8459c15c967f7814cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222bd5eadb1da218ad167cf3c26e50bc') in 0.089322 seconds 
-  Import took 0.153737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001180 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/open.png
-  artifactKey: Guid(e6d5cbc0b2f966c4eaae2b70c2497c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/open.png using Guid(e6d5cbc0b2f966c4eaae2b70c2497c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd799d6f4c42e3ee5d2ae797b0710cabd') in 0.169634 seconds 
-  Import took 0.243385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035596 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/folderopen.png
-  artifactKey: Guid(5097d48fd9188df45b0894efa4b49684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/folderopen.png using Guid(5097d48fd9188df45b0894efa4b49684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b48400c32e7d3fc1607701fd4220b3') in 0.114142 seconds 
-  Import took 0.137324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/sync_on.png
-  artifactKey: Guid(85d46ca01ec581a47991a579d358e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/sync_on.png using Guid(85d46ca01ec581a47991a579d358e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c3b30e05d9f76428d8b7d82caabe6d') in 0.065648 seconds 
-  Import took 0.095703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/bdwn.png
-  artifactKey: Guid(7a41e3cbb80645847b170298a78eef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/bdwn.png using Guid(7a41e3cbb80645847b170298a78eef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc17288cbb2c2057b289a19eecfdc568') in 0.057172 seconds 
-  Import took 0.073831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001950 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/folderclosed.png
-  artifactKey: Guid(4d8724e3a3a1ec8439ce166c060515c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/folderclosed.png using Guid(4d8724e3a3a1ec8439ce166c060515c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9cae777fc23bf37abf7f000911c822') in 0.049661 seconds 
-  Import took 0.059389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/nav_h.png
-  artifactKey: Guid(225a2a0bd7c407647ac91d75ba838d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/nav_h.png using Guid(225a2a0bd7c407647ac91d75ba838d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e5e1f6d6ef888d92420acc92922a4c') in 0.073595 seconds 
-  Import took 0.087997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_h.png
-  artifactKey: Guid(0dbf86740c569184f956be4c9e9393a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_h.png using Guid(0dbf86740c569184f956be4c9e9393a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5866f9b2ac6286499488e1b3cdec54ca') in 0.061417 seconds 
-  Import took 0.068756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/class_car_maker.png
-  artifactKey: Guid(0e74ca85b0d33c445859d873e0dbe6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/class_car_maker.png using Guid(0e74ca85b0d33c445859d873e0dbe6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb49cf96e598aeccbf0f8f0be0e6c67') in 0.070081 seconds 
-  Import took 0.077947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/nav_g.png
-  artifactKey: Guid(8fcac518ba700d04d8233b0a0eeb49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/nav_g.png using Guid(8fcac518ba700d04d8233b0a0eeb49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd59286d185e958c7a37d33a00d7d2a') in 0.045432 seconds 
-  Import took 0.056619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/splitbar.png
-  artifactKey: Guid(3218c29f621c3f64b85a61f5cac96f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/splitbar.png using Guid(3218c29f621c3f64b85a61f5cac96f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ee3e2238e62f6ef2111a64ca4dbb69') in 0.034915 seconds 
-  Import took 0.041511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/doc.png
-  artifactKey: Guid(acd43ec07deaebd4dbdff5632bb98558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/doc.png using Guid(acd43ec07deaebd4dbdff5632bb98558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b509affe628d42c874e0956ad402ae26') in 0.032376 seconds 
-  Import took 0.040037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/doxygen.png
-  artifactKey: Guid(9edc6515359b6b14cae57bd8cc186de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/doxygen.png using Guid(9edc6515359b6b14cae57bd8cc186de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24830536a115069d74a64649d397ecf') in 0.046879 seconds 
-  Import took 0.054745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/nav_f.png
-  artifactKey: Guid(fc3fec3ff6a5bab45aba00907573d84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/nav_f.png using Guid(fc3fec3ff6a5bab45aba00907573d84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b117e918c941632300b31b90fa60cba') in 0.079388 seconds 
-  Import took 0.085456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_s.png
-  artifactKey: Guid(ea2ddbc9f9e4b5a409a8bf3098994d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_s.png using Guid(ea2ddbc9f9e4b5a409a8bf3098994d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12dfb10d1f773723c8a4252e376e088') in 0.065276 seconds 
-  Import took 0.082380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/closed.png
-  artifactKey: Guid(ee82def7d0bd3d042a1b39e69f3bb87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/closed.png using Guid(ee82def7d0bd3d042a1b39e69f3bb87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c35c2eb4e306237ff7b381eda17c8f') in 0.073045 seconds 
-  Import took 0.077174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.872301 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/functions_vars.html
-  artifactKey: Guid(481fa9bcd06b3a943bf8cdac414555cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/functions_vars.html using Guid(481fa9bcd06b3a943bf8cdac414555cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fadd059cb2e93bb851a2d68ba627c9a') in 0.019347 seconds 
-  Import took 0.023124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.386074 seconds.
-  path: Assets/asoliddev - Car Maker/Models/box.fbx
-  artifactKey: Guid(3dcf1c7561d1a1e4b90afac13f22209d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Models/box.fbx using Guid(3dcf1c7561d1a1e4b90afac13f22209d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b0d21aab4356147f6415f845fca753') in 0.098476 seconds 
-  Import took 0.102642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/asoliddev - Car Maker/Models/Terrain.fbx
-  artifactKey: Guid(cbf0411a9d9c8b6478d1b9d90f518720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Models/Terrain.fbx using Guid(cbf0411a9d9c8b6478d1b9d90f518720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04376696a4674858d5bf00c049b542f2') in 0.052496 seconds 
-  Import took 0.056361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/asoliddev - Car Maker/Models/ramp.fbx
-  artifactKey: Guid(1033097ecfdd2b344aaeb1d1169224f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Models/ramp.fbx using Guid(1033097ecfdd2b344aaeb1d1169224f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd622eb30a257761aa45b486cae7db170') in 0.069666 seconds 
-  Import took 0.072622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/asoliddev - Car Maker/Models/car.fbx
-  artifactKey: Guid(1ad15ad704e404543828a0b2e4a4ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Models/car.fbx using Guid(1ad15ad704e404543828a0b2e4a4ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1de1d4bae326c5422424987ad6490b') in 0.091354 seconds 
-  Import took 0.094140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/asoliddev - Car Maker/Models/cone.fbx
-  artifactKey: Guid(a8cdd5158e16e1941b13ef2e99c95419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Models/cone.fbx using Guid(a8cdd5158e16e1941b13ef2e99c95419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599963296e34d8f2f0ea5f9f6f0a3fe') in 0.050836 seconds 
-  Import took 0.054059 seconds .
+  path: Assets/asoliddev - Car Maker/Scripts/CarMaker.cs
+  artifactKey: Guid(53bee20f084a9b644ad1d3208da5ccb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asoliddev - Car Maker/Scripts/CarMaker.cs using Guid(53bee20f084a9b644ad1d3208da5ccb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a44bebc128b336c1e6f276f1560b2e5') in 0.057857 seconds 
+  Import took 0.061022 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003056 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.679 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2680ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (2458ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
-			ReleaseScriptCaches (198ms)
-			RebuildScriptCaches (191ms)
-			SetupLoadedEditorAssemblies (1230ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (1044ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.2 MB.
-System memory in use after: 83.3 MB.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.9 MB.
+System memory in use after: 52.0 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1932.
-Total: 3.154800 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.869800 ms  DeleteObjects: 0.020100 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 3.843100 ms (FindLiveObjects: 0.211400 ms CreateObjectMapping: 0.066800 ms MarkObjects: 3.544300 ms  DeleteObjects: 0.019200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -481,322 +158,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 141.462791 seconds.
-  path: Assets/Scenes/Play.unity
-  artifactKey: Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Play.unity using Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa929725503f20ff555c09065409c15') in 0.021374 seconds 
-  Import took 0.025394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 431.619807 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/ramp.mat
-  artifactKey: Guid(973c1b73e7494ba48bf67e5f310de517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/ramp.mat using Guid(973c1b73e7494ba48bf67e5f310de517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960d0634553d13e3e73d9d79df157c49') in 0.135655 seconds 
-  Import took 0.141323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/red.mat
-  artifactKey: Guid(6725128785c23bf41a1b3c1fd295e3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/red.mat using Guid(6725128785c23bf41a1b3c1fd295e3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c148e5424ccaabadcc3b71d295dc46') in 0.041983 seconds 
-  Import took 0.046712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.440631 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/grid 1.mat
-  artifactKey: Guid(9f320ff6a1b93644c82e164848721f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/grid 1.mat using Guid(9f320ff6a1b93644c82e164848721f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50c0da458622513068dae931f925bdf') in 0.021440 seconds 
-  Import took 0.026065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.873795 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/cone.mat
-  artifactKey: Guid(943824ffb2aef1e4db3fd52f2e7a0c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/cone.mat using Guid(943824ffb2aef1e4db3fd52f2e7a0c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdc3c272b5c34738ab7376c7d52459b') in 0.020236 seconds 
-  Import took 0.024149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.230507 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/car wheel.mat
-  artifactKey: Guid(04139c4414cacf54e8bc302eceb038c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/car wheel.mat using Guid(04139c4414cacf54e8bc302eceb038c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f64b2d0d23665b265a72451938956ca') in 0.026815 seconds 
-  Import took 0.034307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.439122 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/blue.mat
-  artifactKey: Guid(bd22dc639debe294f8758f6878567cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/blue.mat using Guid(bd22dc639debe294f8758f6878567cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af53041b6848dc8c86b1b04870291a2') in 0.041188 seconds 
-  Import took 0.049516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/asoliddev - Car Maker/Materials/car.mat
-  artifactKey: Guid(175916f3852f50e489f45dea6034911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Materials/car.mat using Guid(175916f3852f50e489f45dea6034911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a56973d022c3c5be99339310637f39') in 0.064430 seconds 
-  Import took 0.111625 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004596 seconds.
+Registered in 0.004802 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.234 seconds
+- Completed reload, in  4.214 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3234ms)
-		BeginReloadAssembly (632ms)
+	ReloadAssembly (4215ms)
+		BeginReloadAssembly (221ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (159ms)
-		EndReloadAssembly (2024ms)
-			LoadAssemblies (577ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (3055ms)
+			LoadAssemblies (268ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (844ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (566ms)
+			SetupTypeCache (1642ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (688ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (274ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (472ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.3 MB.
-System memory in use after: 83.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 3.064300 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.767600 ms  DeleteObjects: 0.021300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7.605387 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91acf7549a68805c2a795c974357d871') in 0.070818 seconds 
-  Import took 0.074151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.011415 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d117fb98e78538ee5f8b84ea09a430') in 0.047116 seconds 
-  Import took 0.067045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.596582 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3a21742288921a10aaf06dacd3b199') in 0.029501 seconds 
-  Import took 0.033414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.814398 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8981f063ed4eac187eb89cff0617c15') in 0.029622 seconds 
-  Import took 0.033559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.888774 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a140f70a6aea0d7c7635a18e0edd3e3') in 0.027971 seconds 
-  Import took 0.032099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.896141 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f612776b4ee4b2a5715ab9ea6506c367') in 0.079590 seconds 
-  Import took 0.272594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.135721 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135b00c16a3e97e0c00fbd81c6d17413') in 0.032766 seconds 
-  Import took 0.048484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.174808 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983a61100128ff5d5cb9fbb745fbbbd5') in 0.029539 seconds 
-  Import took 0.034246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.022420 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac9e39e181602b123ce545a01898d1d') in 0.035034 seconds 
-  Import took 0.049836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.628537 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbef57b7ceaad5850be9d1c790f62754') in 0.059811 seconds 
-  Import took 0.072010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.434127 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c395483a6f3fa87dc4695f2d5cf491') in 0.034833 seconds 
-  Import took 0.040653 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003157 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.792 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2792ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (2605ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (528ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (285ms)
-			SetupLoadedEditorAssemblies (744ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (208ms)
-				ProcessInitializeOnLoadAttributes (505ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.3 MB.
-System memory in use after: 83.4 MB.
+System memory in use before: 79.7 MB.
+System memory in use after: 79.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 3.144800 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.760700 ms  DeleteObjects: 0.020600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 509.957820 seconds.
-  path: Assets/Scenes/Play.unity
-  artifactKey: Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Play.unity using Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17fdd7bc30a2839d02f3695e751d57e') in 0.031815 seconds 
-  Import took 0.036215 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018987 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.497 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3498ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (3227ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1655ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (985ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (199ms)
-				ProcessInitializeOnLoadAttributes (746ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.3 MB.
-System memory in use after: 83.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1940.
-Total: 3.448800 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.065700 ms MarkObjects: 3.153700 ms  DeleteObjects: 0.023600 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 3.475400 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.045600 ms MarkObjects: 3.240400 ms  DeleteObjects: 0.027400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

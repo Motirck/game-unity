@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CarPlayer
   - Tires
+  - Track
   layers:
   - Default
   - TransparentFX
