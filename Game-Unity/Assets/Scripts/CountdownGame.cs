@@ -21,9 +21,4 @@ public class CountdownGame : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
     }
-
-    public void teste()
-    {
-        print("entrou aqui");
-    }
 }

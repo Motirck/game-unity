@@ -19,6 +19,9 @@ public class ObstacleDamage : MonoBehaviour
         print(collision.gameObject.tag);
         if (collision.gameObject.tag == "CarPlayer") {
             countDownGame.count -= time;
+
+            // Play music crash tree
+            GetComponent<AudioSource>().Play();
         }
     }
 

@@ -13,7 +13,7 @@ public class TrackCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "CarPlayer")
         {
-            // Play music victory
+            // Play music crash
             GetComponent<AudioSource>().Play();
 
             if (LifeDamage.damage.GetCurrentLife() != 0)

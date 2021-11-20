@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class sphereTime : MonoBehaviour
@@ -15,7 +13,8 @@ public class sphereTime : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-       countDownGame.count += time;
+        countDownGame.count += time;
+        CarControler.carController.PlaySongCollectedSphereTime();
         Destroy(this.gameObject);
     }
 }

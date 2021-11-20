@@ -16,7 +16,7 @@ public class CarControler : MonoBehaviour
     /// Car settings of the car.
     /// </summary>
     public CarSettings carSettings;
-  
+
     /// <summary>
     /// Rigidbody of the car.
     /// </summary>
@@ -26,6 +26,13 @@ public class CarControler : MonoBehaviour
     /// Calculated speed of the car.
     /// </summary>
     public float speed = 0;
+
+    public static CarControler carController;
+
+    void Awake()
+    {
+        carController = this;
+    }
 
     private void Start()
     {
@@ -42,6 +49,30 @@ public class CarControler : MonoBehaviour
         rbody.centerOfMass = carSettings.centerOfMass;
     }
 
+
+    /// <summary>
+    /// Visual Transformation of the car wheels.
+    /// </summary>
+    /// <param name="wheelCollider"></param>
+    /// <param name="wheelMesh"></param>
+    public void ApplyWheelVisuals(WheelCollider wheelCollider, GameObject wheelMesh)
+    {
+        Vector3 position;
+        Quaternion rotation;
+
+        ///get position and rotation of the WheelCollider
+        wheelCollider.GetWorldPose(out position, out rotation);
+
+        ///calculate real rotation of the wheels
+        Quaternion realRotation = rotation * Quaternion.Inverse(wheelCollider.transform.parent.rotation) * this.transform.rotation;
+
+        ///set position of the wheel
+        wheelMesh.transform.position = position;
+
+        ///set rotation of the wheel
+        wheelMesh.transform.rotation = realRotation;
+    }
+
     public void FixedUpdate()
     {
         ///get speed of the car
@@ -49,13 +80,13 @@ public class CarControler : MonoBehaviour
 
         ///calculate motor torque
         float motor = carSettings.motorTorque * Input.GetAxis("Vertical");
-        
+
         //calculate wheel steering
         float steering = carSettings.steeringAngle * Input.GetAxis("Horizontal");
 
         ///calculate motor break
         float handBrake = Input.GetKey(KeyCode.Space) == true ? carSettings.motorTorque * 1 : 0;
-        
+
         ///iterate all wheel axles
         foreach (WheelAxle wheelAxle in wheelAxleList)
         {
@@ -79,6 +110,17 @@ public class CarControler : MonoBehaviour
             ///apply motor break
             wheelAxle.wheelColliderLeft.brakeTorque = handBrake;
             wheelAxle.wheelColliderRight.brakeTorque = handBrake;
+
+
+            ///apply wheel visuals
+            ApplyWheelVisuals(wheelAxle.wheelColliderLeft, wheelAxle.wheelMeshLeft);
+            ApplyWheelVisuals(wheelAxle.wheelColliderRight, wheelAxle.wheelMeshRight);
         }
+    }
+
+    public void PlaySongCollectedSphereTime()
+    {
+        // Play music sphere
+        GetComponent<AudioSource>().Play();
     }
 }
