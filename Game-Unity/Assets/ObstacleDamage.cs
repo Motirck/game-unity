@@ -16,8 +16,9 @@ public class ObstacleDamage : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        countDownGame.count -= time;
-       // Destroy(this.gameObject);
+        if (collision.gameObject.tag == "CarPlasyer") {
+            countDownGame.count -= time;
+        }
     }
 
 }
