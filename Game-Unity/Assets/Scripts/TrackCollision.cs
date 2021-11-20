@@ -7,6 +7,7 @@ public class TrackCollision : MonoBehaviour
 {
     // 3.5 seconds
     public float delay = 3.5f;
+    public int quantityLife = 0;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -14,21 +15,12 @@ public class TrackCollision : MonoBehaviour
         {
             // Play music victory
             GetComponent<AudioSource>().Play();
+
+            if (LifeDamage.damage.GetCurrentLife() != 0)
+            {
+                quantityLife = 20;
+                LifeDamage.damage.DecreaseLife(quantityLife, collision);
+            }
         }
-
-        //// Disabling Renderer and SphereCollider to stop activating OnTrigger
-        //    //// and making the object disappear from the screen
-        //    //GetComponent<Renderer>().enabled = false;
-        //    //GetComponent<BoxCollider>().enabled = false;
-
-        //    //// Destroy object in 5 seconds
-        //    //Destroy(gameObject, 5);
-
-        //    //Invoke("DelayedInChangingScene", delay);
-    }
-
-    void DelayedInChangingScene()
-    {
-       //SceneManager.LoadScene("GameOver");
     }
 }
