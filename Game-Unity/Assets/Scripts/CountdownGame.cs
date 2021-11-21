@@ -9,6 +9,11 @@ public class CountdownGame : MonoBehaviour
     public float count = 100.0f;
     public int countSong = 0;
 
+    void Awake()
+    {
+        countdownGame = this;
+    }
+
     void Update()
     {
         if (count <= 11.5f && countSong == 0)
@@ -26,6 +31,11 @@ public class CountdownGame : MonoBehaviour
             displayCountdown.text = "Time's up";
             SceneManager.LoadScene("GameOver");
         }
+    }
+
+    public float CurrentCountdown()
+    {
+        return count;
     }
 
     public void IncreaseCountdown(float time)

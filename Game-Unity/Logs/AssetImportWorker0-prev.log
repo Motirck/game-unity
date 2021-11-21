@@ -15,11 +15,11 @@ C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49770
+60722
 Successfully changed project path to: C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
 C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,36 +35,36 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001461 seconds.
+Registered in 0.001485 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
+- Completed reload, in  1.132 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1091ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (505ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (512ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (180ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (29ms)
 				ProcessInitializeOnLoadAttributes (90ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
@@ -73,77 +73,77 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002809 seconds.
+Registered in 0.003522 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D989900A50 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002476EB285B0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987FF5020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000024770777480 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B6AD030 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000247714189A0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D989CD8230 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000247714CFC20 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98A167020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000024771910080 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98ADEA990 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000247714CFC20 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987BFC010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000024771B0C030 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D989CD8230 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000247714CFC20 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98A195230 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002477121B220 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B6AD030 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000247714189A0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D989CF5020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000024770AC2010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98ACDFC20 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002476EE4F6F0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D988189F80 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002476EEAB020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.224 seconds
+- Completed reload, in  2.006 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1225ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (2007ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1770ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (425ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (742ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (549ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.3 MB.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
 System memory in use after: 82.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 4.547900 ms (FindLiveObjects: 0.296100 ms CreateObjectMapping: 0.073200 ms MarkObjects: 4.012900 ms  DeleteObjects: 0.163500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 2.901500 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.053200 ms MarkObjects: 2.597000 ms  DeleteObjects: 0.077000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -157,674 +157,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Low Poly Car 1.prefab
-  artifactKey: Guid(699a0248b4036f64c88fd59f77bc7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Low Poly Car 1.prefab using Guid(699a0248b4036f64c88fd59f77bc7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b8172bd7bc8a5e01e9bf02c62cd59') in 0.422571 seconds 
-  Import took 0.428238 seconds .
+  path: Assets/Scenes/About.unity
+  artifactKey: Guid(d6c674f896efc0f469ab4f0f439c36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/About.unity using Guid(d6c674f896efc0f469ab4f0f439c36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f045e7913edf7f981d81d5ae0dbe5297') in 0.019497 seconds 
+  Import took 0.022435 seconds .
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.4 MB.
-System memory in use after: 56.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1892.
-Total: 10.073300 ms (FindLiveObjects: 0.375400 ms CreateObjectMapping: 0.131000 ms MarkObjects: 9.518300 ms  DeleteObjects: 0.047000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006765 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98DCFE730 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D989A71010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98AE89640 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987C44010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D7DB6A0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98990FD10 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B4E5010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987C44010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B417010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98AE89640 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D7DB6A0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987F562A0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9899DE020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.950 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1951ms)
-		BeginReloadAssembly (503ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (267ms)
-		EndReloadAssembly (1241ms)
-			LoadAssemblies (259ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (497ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1894.
-Total: 3.672300 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.065200 ms MarkObjects: 3.391300 ms  DeleteObjects: 0.022700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 37.845770 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/doc.html
-  artifactKey: Guid(d76880a524240a342821407b892130f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/doc.html using Guid(d76880a524240a342821407b892130f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85abb3a5ba08667c00b673562a5a02e2') in 0.052480 seconds 
-  Import took 0.056759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.545197 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html
-  artifactKey: Guid(033cc5f9a61f25740bb0bebf230c2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html using Guid(033cc5f9a61f25740bb0bebf230c2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb83faa742a2125fde45abad0d4bb51') in 0.024692 seconds 
-  Import took 0.029053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041174 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/420x280.png
-  artifactKey: Guid(31a0768d82b97ff44ab40beaf4bcc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/420x280.png using Guid(31a0768d82b97ff44ab40beaf4bcc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6620081ade8a95f53df45a66126c6498') in 0.071149 seconds 
-  Import took 0.075808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/class_car_controler.png
-  artifactKey: Guid(dd1c7c141be399045a86769a4688a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/class_car_controler.png using Guid(dd1c7c141be399045a86769a4688a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7f022fc6aac236d42e2e71c7e9d34f') in 0.071331 seconds 
-  Import took 0.074038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/sync_off.png
-  artifactKey: Guid(b49b232efb79fb4488ffc88a8d814698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/sync_off.png using Guid(b49b232efb79fb4488ffc88a8d814698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04c52b4fa2c79c36236a5376779fad0') in 0.053935 seconds 
-  Import took 0.056685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/bc_s.png
-  artifactKey: Guid(dc680ee8dd94e694b8913d3d733dd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/bc_s.png using Guid(dc680ee8dd94e694b8913d3d733dd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa39689a7fa5a806a6c454735b7e731') in 0.062012 seconds 
-  Import took 0.064920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_a.png
-  artifactKey: Guid(8588af6a112f67e4ea967bcd03cdebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_a.png using Guid(8588af6a112f67e4ea967bcd03cdebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b860a64b523c15f52fea39189e28b11b') in 0.050160 seconds 
-  Import took 0.053187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_b.png
-  artifactKey: Guid(d89d2d6c73f320a4887afad4e267e353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_b.png using Guid(d89d2d6c73f320a4887afad4e267e353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dda7590340ce54b8fd06628acf1029c') in 0.059827 seconds 
-  Import took 0.063457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/class_car_camera.png
-  artifactKey: Guid(376397e90f16ea8459c15c967f7814cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/class_car_camera.png using Guid(376397e90f16ea8459c15c967f7814cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbc944c9e020f11aa50f467f66cccd6') in 0.055616 seconds 
-  Import took 0.059708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/open.png
-  artifactKey: Guid(e6d5cbc0b2f966c4eaae2b70c2497c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/open.png using Guid(e6d5cbc0b2f966c4eaae2b70c2497c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bda6579e0116f3aeac1123e99ff974') in 0.055759 seconds 
-  Import took 0.063537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/folderopen.png
-  artifactKey: Guid(5097d48fd9188df45b0894efa4b49684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/folderopen.png using Guid(5097d48fd9188df45b0894efa4b49684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279ef3b8fac05e1b72ef282ff3cffbec') in 0.071921 seconds 
-  Import took 0.076163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/sync_on.png
-  artifactKey: Guid(85d46ca01ec581a47991a579d358e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/sync_on.png using Guid(85d46ca01ec581a47991a579d358e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300cef684c975c996b90d7671e7f70ee') in 0.079234 seconds 
-  Import took 0.082766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/bdwn.png
-  artifactKey: Guid(7a41e3cbb80645847b170298a78eef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/bdwn.png using Guid(7a41e3cbb80645847b170298a78eef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633f1d58d7cc2fe08e0d906efb5735d1') in 0.068368 seconds 
-  Import took 0.072766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/folderclosed.png
-  artifactKey: Guid(4d8724e3a3a1ec8439ce166c060515c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/folderclosed.png using Guid(4d8724e3a3a1ec8439ce166c060515c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62b3177f9e57a59ded16a59728c976c') in 0.054644 seconds 
-  Import took 0.057411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/nav_h.png
-  artifactKey: Guid(225a2a0bd7c407647ac91d75ba838d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/nav_h.png using Guid(225a2a0bd7c407647ac91d75ba838d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea946849333d80e2601864a8c1f6e68') in 0.074574 seconds 
-  Import took 0.077890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_h.png
-  artifactKey: Guid(0dbf86740c569184f956be4c9e9393a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_h.png using Guid(0dbf86740c569184f956be4c9e9393a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d29eafa6d86eac5cede4ec972f8543') in 0.117178 seconds 
-  Import took 0.158289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/class_car_maker.png
-  artifactKey: Guid(0e74ca85b0d33c445859d873e0dbe6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/class_car_maker.png using Guid(0e74ca85b0d33c445859d873e0dbe6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd431dfc74aa9afcd69ccd577e8633d66') in 0.090045 seconds 
-  Import took 0.108837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/nav_g.png
-  artifactKey: Guid(8fcac518ba700d04d8233b0a0eeb49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/nav_g.png using Guid(8fcac518ba700d04d8233b0a0eeb49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb329e82ba6984a7a553c90192a6615c') in 0.098749 seconds 
-  Import took 0.107245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/splitbar.png
-  artifactKey: Guid(3218c29f621c3f64b85a61f5cac96f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/splitbar.png using Guid(3218c29f621c3f64b85a61f5cac96f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f98a24b6cb4d4a1bb50dd2af2bbd9d6') in 0.367316 seconds 
-  Import took 0.376650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028411 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/doc.png
-  artifactKey: Guid(acd43ec07deaebd4dbdff5632bb98558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/doc.png using Guid(acd43ec07deaebd4dbdff5632bb98558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa92a99235714d4a869489054de0900') in 0.161199 seconds 
-  Import took 0.173734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/doxygen.png
-  artifactKey: Guid(9edc6515359b6b14cae57bd8cc186de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/doxygen.png using Guid(9edc6515359b6b14cae57bd8cc186de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd024ae4d0da7107ca89707a5e9e3cd') in 0.182799 seconds 
-  Import took 0.255416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/nav_f.png
-  artifactKey: Guid(fc3fec3ff6a5bab45aba00907573d84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/nav_f.png using Guid(fc3fec3ff6a5bab45aba00907573d84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a01dcb0f440670757e55268a5278d5d') in 0.117794 seconds 
-  Import took 0.202999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/tab_s.png
-  artifactKey: Guid(ea2ddbc9f9e4b5a409a8bf3098994d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/tab_s.png using Guid(ea2ddbc9f9e4b5a409a8bf3098994d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708295aea5b7a716810a92b7c729aabb') in 0.095689 seconds 
-  Import took 0.100399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000626 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/closed.png
-  artifactKey: Guid(ee82def7d0bd3d042a1b39e69f3bb87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/closed.png using Guid(ee82def7d0bd3d042a1b39e69f3bb87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd327322140607d623cef30bd6dc102f4') in 0.191928 seconds 
-  Import took 0.218552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.130940 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/jquery.js
-  artifactKey: Guid(19386d3d48c20fa4fa35c57ea3418d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/jquery.js using Guid(19386d3d48c20fa4fa35c57ea3418d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b82e9fb679a6a19794ce74a8fbb57a') in 0.054807 seconds 
-  Import took 0.060625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.777744 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/hierarchy.html
-  artifactKey: Guid(e8321c236e896424391fc6802b0564b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/hierarchy.html using Guid(e8321c236e896424391fc6802b0564b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fef7e47ffd120f590cfb0c244c96d1') in 0.025650 seconds 
-  Import took 0.029386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.045856 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/search/close.png
-  artifactKey: Guid(b016d18ee3f5b4b4a9a82e1837fe4d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/search/close.png using Guid(b016d18ee3f5b4b4a9a82e1837fe4d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dff14b94f19d73e7d39405962711ad') in 0.051454 seconds 
-  Import took 0.055390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/search/search_l.png
-  artifactKey: Guid(b2900b2246cc508408f0b91d33feea25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/search/search_l.png using Guid(b2900b2246cc508408f0b91d33feea25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ce5e424696c43d9e204f57be895eda') in 0.116497 seconds 
-  Import took 0.124478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/search/mag_sel.png
-  artifactKey: Guid(d9ed6663e64590a49bd9c4da7a73f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/search/mag_sel.png using Guid(d9ed6663e64590a49bd9c4da7a73f35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5be2e953c53a81698e38d80de647b26') in 0.088203 seconds 
-  Import took 0.092086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/search/search_m.png
-  artifactKey: Guid(88ee29aa82abe484cb650efa36f7edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/search/search_m.png using Guid(88ee29aa82abe484cb650efa36f7edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5637c5172b027c97ebd7c3d65ed424') in 0.090901 seconds 
-  Import took 0.094604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/search/search_r.png
-  artifactKey: Guid(bb755c7a0c960c247910b8ef8522eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/search/search_r.png using Guid(bb755c7a0c960c247910b8ef8522eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb12527ccc0f967167c211362710213') in 0.074462 seconds 
-  Import took 0.077768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.129662 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/box.prefab
-  artifactKey: Guid(be554c2ce9fa7e848b86597806043406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/box.prefab using Guid(be554c2ce9fa7e848b86597806043406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe11e39b6925b029dc1216cb29b1c5d') in 0.100687 seconds 
-  Import took 0.104106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/car.prefab
-  artifactKey: Guid(cfa48b35f0a0585408b93a7a3043343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/car.prefab using Guid(cfa48b35f0a0585408b93a7a3043343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed2fabdad91e867ab64c2705782221e') in 0.114230 seconds 
-  Import took 0.118350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/Terrain.prefab
-  artifactKey: Guid(9669be9d20d3cff499cfaa163f05cf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/Terrain.prefab using Guid(9669be9d20d3cff499cfaa163f05cf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e595e074a4203ad1e5a52be443021') in 0.070299 seconds 
-  Import took 0.073587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78b96ad9e96630691e6923c49d76cc7') in 0.067487 seconds 
-  Import took 0.071185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/cone.prefab
-  artifactKey: Guid(a18dac63d9e6cbd4eaad9e9faab3ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/cone.prefab using Guid(a18dac63d9e6cbd4eaad9e9faab3ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56443dd61b6390ef6d6acd019a27896') in 0.066002 seconds 
-  Import took 0.070721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.858272 seconds.
-  path: Assets/asoliddev - Car Maker/Prefabs/ramp.prefab
-  artifactKey: Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Prefabs/ramp.prefab using Guid(de3339c66d7fbb24d85bb2287fe1bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30490c11d31a9e6970f688dcfc24836') in 0.053590 seconds 
-  Import took 0.059868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.815250 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/car diffuse.png
-  artifactKey: Guid(3b66ed2e5aaffa3478fa744709712aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/car diffuse.png using Guid(3b66ed2e5aaffa3478fa744709712aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c847aee0817ba392fb3523db76fcabfb') in 0.042253 seconds 
-  Import took 0.046716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/grid 2.png
-  artifactKey: Guid(37bf9221d1f4ca248ac108d68b2f3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/grid 2.png using Guid(37bf9221d1f4ca248ac108d68b2f3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9052f1c2bd588c51ec73b34590ba76cf') in 0.103083 seconds 
-  Import took 0.110898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/car wheel diffuse.png
-  artifactKey: Guid(b87ee7cc89908c541b7866a9830c0bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/car wheel diffuse.png using Guid(b87ee7cc89908c541b7866a9830c0bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6db557b6604aad1070c1b379dc6b366') in 0.060866 seconds 
-  Import took 0.065420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/grid 3.png
-  artifactKey: Guid(700bc7da4cdd3b949a5fdf7371e414aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/grid 3.png using Guid(700bc7da4cdd3b949a5fdf7371e414aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140b5c5a22f03ed7f1ebc7aa555316f2') in 0.067632 seconds 
-  Import took 0.071415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/ramp diffuse.png
-  artifactKey: Guid(1b25f5fc540276148aa78792af7b42ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/ramp diffuse.png using Guid(1b25f5fc540276148aa78792af7b42ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d942ca1ffd89700d9515e2a7aeb5af') in 0.060723 seconds 
-  Import took 0.064457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/grid 1.png
-  artifactKey: Guid(ce7d547c0b5a2f84a929c1ffecb4feaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/grid 1.png using Guid(ce7d547c0b5a2f84a929c1ffecb4feaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885041b589d03eb10a05f9f97e187387') in 0.061897 seconds 
-  Import took 0.065677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/asoliddev - Car Maker/Textures/cone diffuse.png
-  artifactKey: Guid(8d75fc0cd856c1142b3127a3e2b41a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Textures/cone diffuse.png using Guid(8d75fc0cd856c1142b3127a3e2b41a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aff550d0d61c8c13df8f394aa39482') in 0.065803 seconds 
-  Import took 0.072525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.512156 seconds.
-  path: Assets/Old Sign Roads/Mesh/road_sign_60_limit.FBX
-  artifactKey: Guid(01b96bf7e7765b24fb324bc72c7e8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Mesh/road_sign_60_limit.FBX using Guid(01b96bf7e7765b24fb324bc72c7e8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4ddce39e399cb0539eb8dea0d7cd67') in 0.176297 seconds 
-  Import took 0.179772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Old Sign Roads/Mesh/road_sign_stop_2.FBX
-  artifactKey: Guid(44002a74168d47643a4347636e2f3bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Mesh/road_sign_stop_2.FBX using Guid(44002a74168d47643a4347636e2f3bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc00298aaee54fd04438a27cf332aee') in 0.076921 seconds 
-  Import took 0.081381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Old Sign Roads/Mesh/road_sign_metal_pole.FBX
-  artifactKey: Guid(4b8b7b6d567b6ae4ebe8df13d9057761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Mesh/road_sign_metal_pole.FBX using Guid(4b8b7b6d567b6ae4ebe8df13d9057761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e8117340fb4d9fdc2c884f7fde2166') in 0.083355 seconds 
-  Import took 0.087301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Old Sign Roads/Mesh/road_sign_stop_1.FBX
-  artifactKey: Guid(998ab9d2486e9df4486cb6e5454aacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Mesh/road_sign_stop_1.FBX using Guid(998ab9d2486e9df4486cb6e5454aacec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9200d99e5155b3d77f16e2885b15c8') in 0.077023 seconds 
-  Import took 0.081333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.586813 seconds.
-  path: Assets/Old Sign Roads/Textures/road_sign_AlbedoTransparency.png
-  artifactKey: Guid(0749fec4e4881ff4a8e77b459118e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Textures/road_sign_AlbedoTransparency.png using Guid(0749fec4e4881ff4a8e77b459118e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5940b2ce91e2662d74606bb8fc113b6b') in 0.036205 seconds 
-  Import took 0.040424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Old Sign Roads/Textures/road_sign_Normal.png
-  artifactKey: Guid(3f9c03e58ff6acd4a9dc1d5045b02004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Textures/road_sign_Normal.png using Guid(3f9c03e58ff6acd4a9dc1d5045b02004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c604ec85d7cc84e9ec8ba06788625cb') in 0.064467 seconds 
-  Import took 0.067647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Old Sign Roads/Textures/road_sign_SpecularSmoothness.png
-  artifactKey: Guid(cd74450e1d59907419a60212f2b05f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Old Sign Roads/Textures/road_sign_SpecularSmoothness.png using Guid(cd74450e1d59907419a60212f2b05f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bab1d2094b73d2148255d82cab8f34') in 0.057221 seconds 
-  Import took 0.060648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.172766 seconds.
-  path: Assets/Rocks/3dobjects_FBX/Materials/rocks-rocks.mat
-  artifactKey: Guid(027e1cf830b5e574e8a027484ece6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/3dobjects_FBX/Materials/rocks-rocks.mat using Guid(027e1cf830b5e574e8a027484ece6684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd071cb158cf0f56e1c9376e4a171e8c7') in 0.067385 seconds 
-  Import took 0.071967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.895693 seconds.
-  path: Assets/Rocks/Textures/rocks_01.bmp
-  artifactKey: Guid(bcc09ffc75667c84a8eca8e4a8bc298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_01.bmp using Guid(bcc09ffc75667c84a8eca8e4a8bc298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502f1169187756f67e3552f8575640f8') in 0.053669 seconds 
-  Import took 0.057986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Rocks/Textures/rocks_02_normal.bmp
-  artifactKey: Guid(202ae0bf867ee2649a70a8f283477185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_02_normal.bmp using Guid(202ae0bf867ee2649a70a8f283477185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a8abfb84bd18b6a8136cd908467236') in 0.077609 seconds 
-  Import took 0.081701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Rocks/Textures/rocks_04_normal.bmp
-  artifactKey: Guid(c76f69d1c19c13944b75639747db7022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_04_normal.bmp using Guid(c76f69d1c19c13944b75639747db7022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880acf1b816d545989864092e6755184') in 0.073414 seconds 
-  Import took 0.076919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Rocks/Textures/rocks_01_normal.bmp
-  artifactKey: Guid(c33fe314a73a0b14895b5710b4ae3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_01_normal.bmp using Guid(c33fe314a73a0b14895b5710b4ae3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baea7ddb33adf8a86a959af58ae82aa') in 0.073901 seconds 
-  Import took 0.078906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Rocks/Textures/rocks_04.bmp
-  artifactKey: Guid(bc1757c8f3a21924dbc59d888295df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_04.bmp using Guid(bc1757c8f3a21924dbc59d888295df7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feb6a52cbb2742ddaa70328b3622e95') in 0.067947 seconds 
-  Import took 0.070947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000643 seconds.
-  path: Assets/Rocks/Textures/rocks_03_normal.bmp
-  artifactKey: Guid(78d6a04ebf3d4c541b0328c460d3f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_03_normal.bmp using Guid(78d6a04ebf3d4c541b0328c460d3f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014afeeb0b91a23f5885bfdd55a37cb5') in 0.341326 seconds 
-  Import took 0.414803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Rocks/Textures/rocks_02.bmp
-  artifactKey: Guid(f1ec8a4a425ef344082444c81d1959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_02.bmp using Guid(f1ec8a4a425ef344082444c81d1959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b942eb40e8decb78dddb4911223ee60') in 0.576109 seconds 
-  Import took 0.595097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000954 seconds.
-  path: Assets/Rocks/Textures/rocks_03.bmp
-  artifactKey: Guid(4bc11a015ef77e246bb856a673bc23e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks/Textures/rocks_03.bmp using Guid(4bc11a015ef77e246bb856a673bc23e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ce8a9cfa491a4aa5141ad697099fd8') in 0.134457 seconds 
-  Import took 0.187043 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003827 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98D69E060 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D989765010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98AE89640 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B5B9010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98A167020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98990FD10 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E436020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B5B9010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B063640 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98AE89640 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98B4E5010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98AE89640 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E0F2180 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2092ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1909ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (612ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (734ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (546ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.5 MB.
-System memory in use after: 84.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 5.348400 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.088200 ms MarkObjects: 4.942600 ms  DeleteObjects: 0.032000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
