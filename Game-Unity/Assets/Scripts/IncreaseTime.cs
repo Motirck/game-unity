@@ -26,7 +26,7 @@ public class IncreaseTime : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        countDownGame.count += time;
+        countDownGame.IncreaseCountdown(time);
         CarControler.carController.PlaySongCollectedSphereTime();
         Destroy(this.gameObject);
     }
