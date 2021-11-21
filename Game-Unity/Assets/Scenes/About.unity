@@ -594,8 +594,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Vence o jogo quem completar o percurso antes do cron\xF4metro chegar a
     zero.\n\n- Bater nas rochas ou nas laterais da pista perde 10 pontos na vida\n-
-    Bater nas placas de tr\xE2nsito ir\xE1 diminuir 10 segundos do tempo\n-Coletar
-    as ampulhetas aumenta 10 segundos no tempo"
+    Bater nas placas de tr\xE2nsito ir\xE1 diminuir 10 segundos do tempo\n- Coletar
+    as ampulhetas aumenta 10 segundos no tempo\n- O jogador ser\xE1 avisado via sinal
+    sonoro quando faltar 10 segundos para o fim da corrida"
 --- !u!222 &615227385
 CanvasRenderer:
   m_ObjectHideFlags: 0

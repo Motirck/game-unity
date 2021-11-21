@@ -289,6 +289,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2634015627534647951, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d4b65b6d484a1459f780db4b3edd0d, type: 2}
     - target: {fileID: 4373330921036052051, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_Name
@@ -4854,6 +4859,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2634015627534647951, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d4b65b6d484a1459f780db4b3edd0d, type: 2}
     - target: {fileID: 4373330921036052051, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_Name
@@ -5623,6 +5633,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2634015627534647951, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d4b65b6d484a1459f780db4b3edd0d, type: 2}
     - target: {fileID: 4373330921036052051, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_Name
@@ -7994,7 +8009,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: bd22dc639debe294f8758f6878567cce, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: 3b7bee62bfdf81742a7e944ddd698742, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -8629,7 +8644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayCountdown: {fileID: 1493453659}
-  count: 15
+  count: 100
   countSong: 0
 --- !u!114 &1493453659
 MonoBehaviour:
@@ -8968,6 +8983,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2634015627534647951, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d4b65b6d484a1459f780db4b3edd0d, type: 2}
     - target: {fileID: 4373330921036052051, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_Name
