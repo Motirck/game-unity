@@ -1230,7 +1230,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c3e8a613086605c4088603b47cfc6180, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2787cfd22a24f3b4f9fde70b75eccb75, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.7
   m_Pitch: 1
@@ -1501,6 +1501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 100
+  LifeScore: {fileID: 0}
 --- !u!82 &495415739
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2979,17 +2980,17 @@ PrefabInstance:
     - target: {fileID: 786556077008421952, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 786556077008421952, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 786556077008421952, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 786556077008421952, guid: de3339c66d7fbb24d85bb2287fe1bd7f,
         type: 3}
@@ -4136,6 +4137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 100
+  LifeScore: {fileID: 1211501246}
 --- !u!114 &1211501246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4169,7 +4171,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Life
+  m_Text: 100
 --- !u!222 &1211501247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4893,7 +4895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayCountdown: {fileID: 1493453659}
-  count: 12
+  count: 120
   countSong: 0
 --- !u!114 &1493453659
 MonoBehaviour:
