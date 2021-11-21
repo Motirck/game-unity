@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+#region CREDITS - asoliddev - https://asoliddev.artstation.com/ - asoliddev @gmail.com
 /// <summary>
 /// Camera script to follow car while driving
 /// </summary>
@@ -65,3 +66,4 @@ public class CarCamera : MonoBehaviour
         this.transform.LookAt(target);
     }
 }
+#endregion

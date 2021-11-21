@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#region CREDITS - asoliddev - https://asoliddev.artstation.com/ - asoliddev @gmail.com
 /// <summary>
 /// Settings of visuals and physics of a left and right wheel.
 /// </summary>
@@ -38,4 +39,4 @@ public class WheelAxle
     /// </summary>
     public bool steering;
 }
-
+#endregion

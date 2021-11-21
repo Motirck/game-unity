@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+#region CREDITS - asoliddev - https://asoliddev.artstation.com/ - asoliddev @gmail.com
 /// <summary>
 /// Basic car settings for CarControler
 /// </summary>
@@ -34,3 +34,4 @@ public class CarSettings
     /// </summary>
     public float steeringAngle = 50;
 }
+#endregion

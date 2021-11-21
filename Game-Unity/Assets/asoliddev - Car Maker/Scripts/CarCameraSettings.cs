@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#region CREDITS - asoliddev - https://asoliddev.artstation.com/ - asoliddev @gmail.com
+
 /// <summary>
 /// Used by CarCamera to setup up different styled camera views.
 /// </summary>
@@ -65,3 +67,4 @@ public class CarCameraSettings
         return carCameraSettings;
     }
 }
+#endregion
