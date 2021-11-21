@@ -1,0 +1,519 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22000.346; Version 2009; 64bit' Language: 'pt' Physical Memory: 16181 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51793
+Successfully changed project path to: C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
+C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ricar/Desktop/Computacao Grafica/game-unity/Game-Unity/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) R7 M440 (ID=0x6900)
+    Vendor:   
+    VRAM:     2038 MB
+    Driver:   26.20.15026.1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001879 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6837ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (5055ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3313ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (1101ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023D86AC8030 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D881C0010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D87141990 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D84D516C0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D85006020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D8522C450 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D85006020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D8522C450 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D872CA230 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D87141990 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D8771D010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D86B48620 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D8502C430 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2920ms)
+		BeginReloadAssembly (354ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (2461ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1538ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.7 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 3.122000 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.808100 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Clock/Prefabs/clock.prefab
+  artifactKey: Guid(595cf544943e29a4d9a7b813e4218a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clock/Prefabs/clock.prefab using Guid(595cf544943e29a4d9a7b813e4218a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9d3a4d87c3a4ba4e1f4b74fba2ae9d') in 0.197474 seconds 
+  Import took 0.204884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.742856 seconds.
+  path: Assets/Clock/Prefabs/clock.prefab
+  artifactKey: Guid(595cf544943e29a4d9a7b813e4218a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clock/Prefabs/clock.prefab using Guid(595cf544943e29a4d9a7b813e4218a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949d42c67633b7149819d36f4d37b980') in 0.017250 seconds 
+  Import took 0.056197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.262256 seconds.
+  path: Assets/Clock/Textures/clock.bmp
+  artifactKey: Guid(9324a9f47295c804aa1925009cfb042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clock/Textures/clock.bmp using Guid(9324a9f47295c804aa1925009cfb042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae69e8ebbe2c5e83d3faf889bdf9e424') in 0.196675 seconds 
+  Import took 0.199993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.098208 seconds.
+  path: Assets/Clock/Scripts/Clock.cs
+  artifactKey: Guid(3a0db685f114bbf4e837ee81aae56661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clock/Scripts/Clock.cs using Guid(3a0db685f114bbf4e837ee81aae56661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a0b6202fb10cba0f0c1d2fc6b14700') in 0.045439 seconds 
+  Import took 0.052248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.019312 seconds.
+  path: Assets/Clock/Materials/clock.mat
+  artifactKey: Guid(e3492da461991bf49ade3c6b5fc06fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clock/Materials/clock.mat using Guid(e3492da461991bf49ade3c6b5fc06fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f06c0304d43380db7f97bb803af91a') in 0.506409 seconds 
+  Import took 0.516393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.122561 seconds.
+  path: Assets/Clock/3dobjects_FBX/wanduhr.fbx
+  artifactKey: Guid(3da57b887e4888947839b3313e880f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clock/3dobjects_FBX/wanduhr.fbx using Guid(3da57b887e4888947839b3313e880f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6224274a6ea104c627650178318b4f68') in 0.144421 seconds 
+  Import took 0.150136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.297721 seconds.
+  path: Assets/SandClock/Materials/base.mat
+  artifactKey: Guid(c4bc4cf799e200e44b5d0ea6c727935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Materials/base.mat using Guid(c4bc4cf799e200e44b5d0ea6c727935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83f51fb4f6ff50e2e0502d93cb045b3') in 0.393659 seconds 
+  Import took 0.398421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/SandClock/Materials/sand.mat
+  artifactKey: Guid(0bbca6b9a83c17347b008c9a3134086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Materials/sand.mat using Guid(0bbca6b9a83c17347b008c9a3134086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6d083032db165f1f25758c7b3bdbb5') in 0.071089 seconds 
+  Import took 0.078017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/SandClock/Materials/glass.mat
+  artifactKey: Guid(ba34b4eba0015a14b8fac6706d579b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Materials/glass.mat using Guid(ba34b4eba0015a14b8fac6706d579b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d653ac3f93676f218f1b77aa324066') in 0.477141 seconds 
+  Import took 0.481530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SandClock/Model/sand_clock.FBX
+  artifactKey: Guid(e5d3115b5fab7f24bbe8871f1d6feab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Model/sand_clock.FBX using Guid(e5d3115b5fab7f24bbe8871f1d6feab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd1a3367e08d41595a842471b51db0e') in 0.125956 seconds 
+  Import took 0.129774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.133125 seconds.
+  path: Assets/SandClock/Prefabs/sand_clock.prefab
+  artifactKey: Guid(030dbc91e8f48ef40bf620d9aeebc47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Prefabs/sand_clock.prefab using Guid(030dbc91e8f48ef40bf620d9aeebc47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1470fe55b63be0509c4f265ce396982b') in 0.182344 seconds 
+  Import took 0.217585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/SandClock/Prefabs/sand_clock_animation.prefab
+  artifactKey: Guid(c844625022dd4d1479f604eceb65b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Prefabs/sand_clock_animation.prefab using Guid(c844625022dd4d1479f604eceb65b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c074d3164a336caf70636c4e5f67ebe4') in 0.109330 seconds 
+  Import took 0.209355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.972857 seconds.
+  path: Assets/Tree 4.prefab
+  artifactKey: Guid(5321d8f145319854abc11d600f96261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 4.prefab using Guid(5321d8f145319854abc11d600f96261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b95d3e8669523bbb718e6f2c39347c') in 0.840189 seconds 
+  Import took 0.911223 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016829 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023D872D9830 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D85333020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D886CE010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D85333020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D887D1A50 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D85333020 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D8B002EB0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D8B0292C0 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D869E6010 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D87141990 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D887D1A50 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D889E9E20 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023D86DB5500 doesn't match image C:\Users\ricar\Desktop\Computacao Grafica\game-unity\Game-Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.187 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3189ms)
+		BeginReloadAssembly (1043ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (294ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1820ms)
+			LoadAssemblies (655ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (674ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (566ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1927.
+Total: 9.692100 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.342400 ms MarkObjects: 8.936500 ms  DeleteObjects: 0.038300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 308.643224 seconds.
+  path: Assets/Cat_Clock/Meshes/Cat_Clock.fbx
+  artifactKey: Guid(97f339b0885ba634d8879230c927c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Meshes/Cat_Clock.fbx using Guid(97f339b0885ba634d8879230c927c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd3628eb5785fb815fe5ea2c9bbf1c') in 1.201987 seconds 
+  Import took 1.214091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Cat_Clock/Prefabs/Cat_Clock (1) Variant.prefab
+  artifactKey: Guid(4c3adc22b7f4f4b40b4ad4e6907f3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Prefabs/Cat_Clock (1) Variant.prefab using Guid(4c3adc22b7f4f4b40b4ad4e6907f3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98fd0fe6aafb5d134f70a6de439a796') in 0.144410 seconds 
+  Import took 0.151911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.330872 seconds.
+  path: Assets/Cat_Clock/Materials/Demo_Sky.mat
+  artifactKey: Guid(2c26ad67f40682548ba27d3b5c9f6116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Materials/Demo_Sky.mat using Guid(2c26ad67f40682548ba27d3b5c9f6116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f9f2e555fdc91f05ef843f7937cc55') in 0.279741 seconds 
+  Import took 0.283555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Cat_Clock/Materials/Glass.mat
+  artifactKey: Guid(366b8ebc4709eaa4c9d6bd79c4205c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Materials/Glass.mat using Guid(366b8ebc4709eaa4c9d6bd79c4205c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f158fba2ceb0f48b6d495f71b3919929') in 0.098731 seconds 
+  Import took 0.102791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.717089 seconds.
+  path: Assets/Cat_Clock/Textures/Normal.png
+  artifactKey: Guid(af5d2c462da77054ba749c89cb65e6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Textures/Normal.png using Guid(af5d2c462da77054ba749c89cb65e6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3dae61983be6b2234488e6d6155b6f') in 0.214986 seconds 
+  Import took 0.220720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.819167 seconds.
+  path: Assets/Cat_Clock/Textures/Base_Colors/Base_Color2.png
+  artifactKey: Guid(392ef05efc56f4142844293e69f54cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Textures/Base_Colors/Base_Color2.png using Guid(392ef05efc56f4142844293e69f54cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08387d55aa6b51789a0a9c49948c3637') in 0.044688 seconds 
+  Import took 0.049541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Cat_Clock/Textures/Base_Colors/Texture1.png
+  artifactKey: Guid(03a576196c7afd842ade9e2fb5233bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Textures/Base_Colors/Texture1.png using Guid(03a576196c7afd842ade9e2fb5233bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84fd6974ecf0fd1e2b1d23efa15c93f') in 0.145880 seconds 
+  Import took 0.151745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Cat_Clock/Textures/Base_Colors/Base_Color5.png
+  artifactKey: Guid(f307d6137f5e23741acdbf3eda80ec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Textures/Base_Colors/Base_Color5.png using Guid(f307d6137f5e23741acdbf3eda80ec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c022e906a0300ad64c717cab3b0cd5da') in 0.080688 seconds 
+  Import took 0.085837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Cat_Clock/Textures/Base_Colors/Base_Color4.png
+  artifactKey: Guid(01dab903bbe571143852db961a359083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Textures/Base_Colors/Base_Color4.png using Guid(01dab903bbe571143852db961a359083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c832cf2813d54d54f255f7d5508646eb') in 0.090507 seconds 
+  Import took 0.094087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Cat_Clock/Textures/Base_Colors/Base_Color3.png
+  artifactKey: Guid(d0f3b0ff2f0c73c46880e5689c986768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat_Clock/Textures/Base_Colors/Base_Color3.png using Guid(d0f3b0ff2f0c73c46880e5689c986768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b31c162883063f36e86214532a3aaa5') in 0.091102 seconds 
+  Import took 0.096466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.955997 seconds.
+  path: Assets/SandClock/Textures/sand_clock_base_AlbedoTransparency.png
+  artifactKey: Guid(1d13451cf2df5d94ab93364cfd191e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_base_AlbedoTransparency.png using Guid(1d13451cf2df5d94ab93364cfd191e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e71c509c52d3df0c6443e0162b85be') in 0.051900 seconds 
+  Import took 0.060592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SandClock/Textures/sand_clock_sand_MetallicSmoothness.png
+  artifactKey: Guid(5021139a5a7517d499d2f3abcde430de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_sand_MetallicSmoothness.png using Guid(5021139a5a7517d499d2f3abcde430de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0dc495914da8d6b4b490c122e3570a') in 0.125639 seconds 
+  Import took 0.131661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SandClock/Textures/sand_clock_sand_Normal.png
+  artifactKey: Guid(996b47f54a6be614cab0c07d3ce890ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_sand_Normal.png using Guid(996b47f54a6be614cab0c07d3ce890ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d91dd642e9041556a49467aa886bdb1') in 0.071321 seconds 
+  Import took 0.078331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/SandClock/Textures/sand_clock_glass_Normal.png
+  artifactKey: Guid(38ab48305f37f804b9d9e2055ad02b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_glass_Normal.png using Guid(38ab48305f37f804b9d9e2055ad02b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b44fa02bcc0c0188c0debec75a184d') in 0.099591 seconds 
+  Import took 0.109992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SandClock/Textures/sand_clock_glass_AO.png
+  artifactKey: Guid(943c1a152690c224aa76825746423365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_glass_AO.png using Guid(943c1a152690c224aa76825746423365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3db74634a704375bb4387e239d3bed') in 0.082168 seconds 
+  Import took 0.086279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SandClock/Textures/sand_clock_sand_AlbedoTransparency.png
+  artifactKey: Guid(032eadf5e6466d94e941d782557d3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_sand_AlbedoTransparency.png using Guid(032eadf5e6466d94e941d782557d3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ee31c76e0f7b33e393fb9116bce5eb') in 0.084890 seconds 
+  Import took 0.097294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SandClock/Textures/sand_clock_base_MetallicSmoothness.png
+  artifactKey: Guid(e33f1c98572cae94c9161f0e1352fba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_base_MetallicSmoothness.png using Guid(e33f1c98572cae94c9161f0e1352fba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58ccfa3239cbdde77a01718d5d02b1f') in 0.068763 seconds 
+  Import took 0.086080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SandClock/Textures/sand_clock_glass_AlbedoTransparency.png
+  artifactKey: Guid(c663856b075b83e49bfffdea762e2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_glass_AlbedoTransparency.png using Guid(c663856b075b83e49bfffdea762e2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eda591b2496eeef7f7243b02492e8c8') in 0.074863 seconds 
+  Import took 0.078493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/SandClock/Textures/sand_clock_base_Normal.png
+  artifactKey: Guid(87e3b13b55705604d9807669e5712d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_base_Normal.png using Guid(87e3b13b55705604d9807669e5712d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444fa7cae9ecf0d0887e8a7118834ef3') in 0.084839 seconds 
+  Import took 0.088460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/SandClock/Textures/sand_clock_glass_MetallicSmoothness.png
+  artifactKey: Guid(75938e117755a7143aee11c804c5d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_glass_MetallicSmoothness.png using Guid(75938e117755a7143aee11c804c5d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2961ea1f27cf4534140ac77da1c7ac') in 0.064780 seconds 
+  Import took 0.067619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SandClock/Textures/sand_clock_sand_AO.png
+  artifactKey: Guid(bde886a7db5a46c4aa960ef3a9753b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Textures/sand_clock_sand_AO.png using Guid(bde886a7db5a46c4aa960ef3a9753b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751a85a4cdd900d7dce272242700f21c') in 0.056005 seconds 
+  Import took 0.059159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.469247 seconds.
+  path: Assets/SandClock/Materials
+  artifactKey: Guid(60de333fbefff5e4aa60e225fb97435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandClock/Materials using Guid(60de333fbefff5e4aa60e225fb97435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd899884bfad7098b07c4cf7e970d6372') in 0.058610 seconds 
+  Import took 0.062959 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
