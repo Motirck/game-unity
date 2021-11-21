@@ -7,6 +7,7 @@ using System.Collections.Generic;
 /// </summary>
 public class CarControler : MonoBehaviour
 {
+    #region CREDITS - asoliddev - https://asoliddev.artstation.com/ - asoliddev @gmail.com
     /// <summary>
     /// List of the wheel settings of the car.
     /// </summary>
@@ -117,6 +118,7 @@ public class CarControler : MonoBehaviour
             ApplyWheelVisuals(wheelAxle.wheelColliderRight, wheelAxle.wheelMeshRight);
         }
     }
+    #endregion
 
     public void PlaySongCollectedSphereTime()
     {

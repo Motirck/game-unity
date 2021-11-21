@@ -6,8 +6,13 @@ public class CountdownGame : MonoBehaviour
     public static CountdownGame countdownGame;
     public Text displayCountdown;
 
-    public float count = 120.0f;
+    public float count = 100.0f;
     public int countSong = 0;
+
+    void Awake()
+    {
+        countdownGame = this;
+    }
 
     void Update()
     {
@@ -28,9 +33,20 @@ public class CountdownGame : MonoBehaviour
         }
     }
 
+    public float CurrentCountdown()
+    {
+        return count;
+    }
+
+    public void IncreaseCountdown(float time)
+    {
+        count += time;
+        countSong = 0;
+        GetComponent<AudioSource>().Stop();
+    }
+
     public void PlaySongCountdown()
     {
-        print("Entrou no 10");
         GetComponent<AudioSource>().Play();
     }
 }

@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LifeDamage : MonoBehaviour
 {
     public int life = 100;
     public static LifeDamage damage;
+    public Text LifeScore;
 
     void Awake()
     {
@@ -20,6 +22,8 @@ public class LifeDamage : MonoBehaviour
     {
         life -= quantity;
         print("Decrease Life, now life is: " + life);
+
+        LifeScore.text = life.ToString();
 
         if (life <= 0)
         {
