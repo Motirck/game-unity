@@ -4598,6 +4598,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: CarPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 4961040311715803823, guid: bd270f5442d387d47b22cd361fa7b887,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6725128785c23bf41a1b3c1fd295e3e0, type: 2}
     - target: {fileID: 7574725825018735783, guid: bd270f5442d387d47b22cd361fa7b887,
         type: 3}
       propertyPath: m_RootOrder
@@ -7381,8 +7386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 792.84, y: 481.73}
-  m_SizeDelta: {x: 106.3062, y: 63.1609}
+  m_AnchoredPosition: {x: 804, y: 481.73}
+  m_SizeDelta: {x: 75.7161, y: 63.1609}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211501245
 MonoBehaviour:
