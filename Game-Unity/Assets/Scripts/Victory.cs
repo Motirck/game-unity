@@ -15,10 +15,8 @@ public class Victory : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        /* Before playing the victory song and redirecting the user to the "You win" screen, the timer
-           is checked, as it is impossible to make the lap with 30 seconds, possibly the player tried
-           to win the game by accelerating on the track in reverse to cross the finish line */
-        if (CountdownGame.countdownGame.CurrentCountdown() <= 30.0f)
+        // Checks if the car's turn was made in a clockwise direction on the track.
+        if (ValidateRunWasMadeClockwise.validateRun.CheckStates())
         {
             // Play music victory
             GetComponent<AudioSource>().Play();
