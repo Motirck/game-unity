@@ -7,6 +7,10 @@ TagManager:
   - CarPlayer
   - Tires
   - Track
+  - CheckRun1
+  - CheckRun2
+  - CheckRun3
+  - CheckRun4
   layers:
   - Default
   - TransparentFX

@@ -13,10 +13,8 @@ public class ObstacleDamage : MonoBehaviour
         countDownGame = GameObject.FindObjectOfType(typeof(CountdownGame)) as CountdownGame;
     }
 
-
     private void OnCollisionEnter(Collision collision)
     {
-        print(collision.gameObject.tag);
         if (collision.gameObject.tag == "CarPlayer") {
             countDownGame.count -= time;
 

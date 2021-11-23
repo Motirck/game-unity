@@ -21,7 +21,6 @@ public class LifeDamage : MonoBehaviour
     public void DecreaseLife(int quantity, Collision other)
     {
         life -= quantity;
-        print("Decrease Life, now life is: " + life);
 
         LifeScore.text = life.ToString();
 
