@@ -6,7 +6,7 @@ public class CountdownGame : MonoBehaviour
     public static CountdownGame countdownGame;
     public Text displayCountdown;
 
-    public float count = 100.0f;
+    public float count = 60.0f;
     public int countSong = 0;
 
     void Awake()
