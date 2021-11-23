@@ -26,10 +26,14 @@ public class CountdownGame : MonoBehaviour
             count -= Time.deltaTime;
             displayCountdown.text = count.ToString("F2");
         }
-        else
+        else if (!Victory.victory.CrossedFinishLine())
         {
             displayCountdown.text = "Time's up";
             SceneManager.LoadScene("GameOver");
+        }
+        else
+        {
+            displayCountdown.text = "0.00";
         }
     }
 
