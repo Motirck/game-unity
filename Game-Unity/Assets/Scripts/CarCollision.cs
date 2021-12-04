@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class CarCollision : MonoBehaviour
 {
-    // 3.5 seconds
-    public float delay = 3.5f;
     public int quantityLife = 0;
 
     private void OnCollisionEnter(Collision collision)

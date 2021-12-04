@@ -4887,6 +4887,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 7.166212
   m_Center: {x: -0.43445206, y: 2.25243, z: 0.27736568}
+--- !u!114 &718691157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718691150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ab3bca760b2894896e3c5331eb22c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkRun1: 0
+  checkRun2: 0
+  checkRun3: 0
+  checkRun4: 0
 --- !u!1001 &756269566
 PrefabInstance:
   m_ObjectHideFlags: 0
